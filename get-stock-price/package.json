@@ -1,0 +1,26 @@
+{
+  "name": "get-stock-price",
+  "version": "1.0.0",
+  "description": "an npm package used to get stock and crypto exchange rates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnavvtiwari/getstockprice.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Arnav Tiwari",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/arnavvtiwari/getstockprice/issues"
+  },
+  "homepage": "https://github.com/arnavvtiwari/getstockprice#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "finnhub": "^1.2.18"
+  }
+}
