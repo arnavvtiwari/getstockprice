@@ -1,4 +1,22 @@
 # getstockprice
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm i get-stock-price
+  ```
+
+## Usage/Examples
+
+```javascript
+import getSymbolPrice from "get-stock-price";
+
+getSymbolPrice('Commodity_Name')
+```
+
+# Description
 "get-stock-prices" harnesses the power of asynchronous JavaScript programming and RESTful APIs to fetch and parse data from various financial exchanges. Leveraging Node.js's event-driven architecture, the package orchestrates HTTP requests to designated endpoints, utilizing promises or callbacks for non-blocking execution.
 
 Internally, the package employs algorithms for data normalization, ensuring consistency across disparate exchange formats and schemas. It may utilize caching mechanisms to optimize performance, reducing redundant API calls and minimizing latency.
@@ -7,4 +25,4 @@ Upon invocation, "get-stock-prices" dynamically constructs HTTP requests with pa
 
 The retrieved data undergoes validation and transformation, adhering to predefined schemas or custom data structures as specified by the user. Advanced techniques such as rate limiting and error handling safeguard against API throttling and transient network issues, ensuring robustness and reliability in data retrieval processes.
 
-By encapsulating these complexities into a user-friendly interface, "get-stock-prices" abstracts away the intricacies of low-level HTTP interactions, empowering developers to focus on higher-level application logic. Thus, packages like "get-stock-prices" exemplify the modularity and extensibility afforded by the Node.js ecosystem, enabling rapid development and deployment of sophisticated financial applications.
+By encapsulating these complexities into a user-friendly interface, "get-stock-prices" abstracts away the intricacies of low-level HTTP interactions, empowering developers to focus on higher-level application logic. Thus, packages like "get-stock-prices" exemplify the modularity and extensibility afforded by the Node.js ecosystem, enabling rapid development and deployment of sophisticated financial applications.es
